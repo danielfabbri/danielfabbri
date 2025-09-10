@@ -58,8 +58,8 @@ I have over 10 years of experience in software development, architecture, and te
 ---
 
 ## 📫 Contact
-[LinkedIn](https://www.linkedin.com/in/daniel-fabbri-019121ba/) | [GitHub](https://github.com/yourusername) | your.email@example.com
+[LinkedIn](https://www.linkedin.com/in/daniel-fabbri-019121ba/) | [GitHub](https://github.com/danielfabbri) | contato.fabbri@gmail.com
 
 ---
 
-⭐️ From Daniel Fabbri
+⭐️ From [Daniel Fabbri](https://www.linkedin.com/in/daniel-fabbri-019121ba/)
