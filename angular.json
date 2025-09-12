@@ -21,16 +21,17 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
+              "node_modules/devicon/devicon.min.css",
               "src/styles.scss"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",
+            "outputPath": "dist/danielfabbri",
+            "baseHref": "/",
             "ssr": {
               "entry": "src/server.ts"
             }
@@ -80,10 +81,8 @@
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss"

@@ -5,9 +5,12 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:danielfabbri": "node dist/danielfabbri/server/server.mjs"
+    "serve:ssr:danielfabbri": "node dist/danielfabbri/server/server.mjs",
+    "deploy": "ng build --configuration production && npx angular-cli-ghpages --dir=dist/danielfabbri/browser",
+    "predeploy": "npm run build:prod"
   },
   "prettier": {
     "printWidth": 100,

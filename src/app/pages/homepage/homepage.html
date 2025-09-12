@@ -1,47 +1,28 @@
-<!-- Navigation -->
-<nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-200">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between items-center h-16">
-      <div class="flex-shrink-0">
-        <h1 class="text-2xl font-bold text-gray-900">Daniel Fabbri</h1>
-      </div>
-      <div class="hidden md:block">
-        <div class="ml-10 flex items-baseline space-x-8">
-          <a href="#about" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">About</a>
-          <a href="#skills" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Skills</a>
-          <a href="#projects" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Projects</a>
-          <a href="#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Contact</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
+<app-header />
 
 <!-- Hero Section -->
-<section class="pt-20 pb-16 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center">
-      <div class="mb-8">
-        <div class="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
-          <div class="w-full h-full rounded-full bg-gray-800 flex items-center justify-center">
-            <span class="text-4xl font-bold">DF</span>
-          </div>
+<section class="pt-20 pb-16 bg-gradient-to-br from-gray-600 to-gray-900 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+    <div class="text-center mt-5">
+      <div class="mb-4 mt-7">
+        <div class="w-64 h-64 bg-cover bg-center rounded-full mx-auto border-[2px] border-white-800 shadow-lg"
+            style="background-image: url('/assets/images/daniel_fabbri.png')">
         </div>
       </div>
-      <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+      <h2 class="text-4xl md:text-5xl font-bold mb-3 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
         Daniel Fabbri
-      </h1>
-      <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-        Full-Stack Developer & Digital Innovator
+      </h2>
+      <p class="text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto">
+        Tech Lead | Software Engineer
       </p>
-      <p class="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
-        Crafting exceptional digital experiences with cutting-edge technologies and creative solutions
+      <p class="text-lg text-gray-400 mb-9 max-w-2xl mx-auto hidden">
+        Crafting digital ecosystems with cutting-edge technologies that empower businesses to grow.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="#projects" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105">
+      <div class="flex flex-col sm:flex-row gap-4 mb-8 justify-center">
+        <a href="#projects" class="bg-gradient-to-r from-blue-600 to-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105">
           View My Work
         </a>
-        <a href="#contact" class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300">
+        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521980474532" target="_blank" class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300">
           Get In Touch
         </a>
       </div>
@@ -54,264 +35,216 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
       <h2 class="text-4xl font-bold text-gray-900 mb-4">About Me</h2>
-      <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
+      <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-600 mx-auto"></div>
     </div>
     <div class="grid md:grid-cols-2 gap-12 items-center">
+      
       <div>
-        <h3 class="text-2xl font-semibold text-gray-900 mb-6">Passionate Developer & Problem Solver</h3>
-        <p class="text-gray-600 mb-6 leading-relaxed">
-          I'm a passionate full-stack developer with a love for creating innovative digital solutions. 
-          With expertise in modern web technologies, I specialize in building scalable applications 
-          that deliver exceptional user experiences.
-        </p>
-        <p class="text-gray-600 mb-8 leading-relaxed">
-          My journey in technology started with curiosity and has evolved into a career focused on 
-          continuous learning and pushing the boundaries of what's possible in web development.
-        </p>
-        <div class="grid grid-cols-2 gap-6">
-          <div class="text-center">
-            <div class="text-3xl font-bold text-blue-600 mb-2">3+</div>
-            <div class="text-gray-600">Years Experience</div>
-          </div>
-          <div class="text-center">
-            <div class="text-3xl font-bold text-purple-600 mb-2">50+</div>
-            <div class="text-gray-600">Projects Completed</div>
-          </div>
-        </div>
-      </div>
-      <div class="relative">
-        <div class="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl p-8 text-white">
+        <div class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-8 text-white">
           <h4 class="text-xl font-semibold mb-4">What I Do</h4>
           <ul class="space-y-3">
             <li class="flex items-center">
               <span class="w-2 h-2 bg-white rounded-full mr-3"></span>
-              Full-Stack Web Development
+              Full-Stack Development
             </li>
             <li class="flex items-center">
               <span class="w-2 h-2 bg-white rounded-full mr-3"></span>
-              Mobile App Development
+              System Architecture
             </li>
             <li class="flex items-center">
               <span class="w-2 h-2 bg-white rounded-full mr-3"></span>
-              UI/UX Design
+              API Design & Integration
             </li>
             <li class="flex items-center">
               <span class="w-2 h-2 bg-white rounded-full mr-3"></span>
-              Cloud Architecture
+              Tech Leadership
             </li>
             <li class="flex items-center">
               <span class="w-2 h-2 bg-white rounded-full mr-3"></span>
-              DevOps & Automation
+              Design thinking / Design system
+            </li>
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-white rounded-full mr-3"></span>
+              Innovation & Problem Solving
+            </li>
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-white rounded-full mr-3"></span>
+              Team management
+            </li>
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-white rounded-full mr-3"></span>
+              Authentication
             </li>
           </ul>
+          
         </div>
       </div>
+      <div class="relative">
+        <h3 class="text-2xl font-semibold text-gray-900 mb-6">Passionate Developer & Problem Solver</h3>
+        <p class="text-gray-600 mb-6 leading-relaxed">
+          I am a Tech Lead and Software Engineer with over a decade of experience building and scaling digital solutions. Throughout my career, I’ve worked on fullstack development, system architecture, and technical leadership in startups, fintech and SaaS environments. My focus has always been on designing innovative, reliable and scalable platforms, driving real business value. I enjoy working at the intersection of technology and strategy.
+        </p>
+        <p class="text-gray-600 mb-8 leading-relaxed">
+          Beyond leadership, I remain deeply hands-on and passionate about tackling technical challenges. Whether it’s solving complex integration problems, optimizing performance, or exploring new technologies, I enjoy pushing boundaries to deliver the best outcomes.
+        </p>
+        <a href="/about" class="bg-gradient-to-r from-blue-600 to-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105">
+          More about
+        </a>
+      </div>
+
     </div>
   </div>
 </section>
-
 <!-- Skills Section -->
 <section id="skills" class="py-20 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Título -->
     <div class="text-center mb-16">
       <h2 class="text-4xl font-bold text-gray-900 mb-4">Skills & Technologies</h2>
-      <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
+      <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-600 mx-auto"></div>
     </div>
-    <div class="grid md:grid-cols-3 gap-8">
-      <!-- Frontend -->
-      <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-        <div class="text-center mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-            </svg>
-          </div>
-          <h3 class="text-xl font-semibold text-gray-900">Frontend</h3>
-        </div>
-        <div class="space-y-3">
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600">React</span>
-            <div class="w-24 bg-gray-200 rounded-full h-2">
-              <div class="bg-blue-500 h-2 rounded-full" style="width: 90%"></div>
-            </div>
-          </div>
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600">Angular</span>
-            <div class="w-24 bg-gray-200 rounded-full h-2">
-              <div class="bg-blue-500 h-2 rounded-full" style="width: 85%"></div>
-            </div>
-          </div>
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600">Vue.js</span>
-            <div class="w-24 bg-gray-200 rounded-full h-2">
-              <div class="bg-blue-500 h-2 rounded-full" style="width: 80%"></div>
-            </div>
-          </div>
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600">TypeScript</span>
-            <div class="w-24 bg-gray-200 rounded-full h-2">
-              <div class="bg-blue-500 h-2 rounded-full" style="width: 95%"></div>
-            </div>
-          </div>
-        </div>
+
+    <!-- Grid de Skills -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8">
+      
+      <!-- Angular -->
+      <div class="flex flex-col items-center justify-center aspect-square border rounded-2xl shadow-md hover:shadow-xl transition p-6 bg-white">
+        <i class="devicon-angularjs-plain colored text-6xl"></i>
+        <span class="mt-3 text-gray-700 font-medium">Angular</span>
       </div>
 
-      <!-- Backend -->
-      <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-        <div class="text-center mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
-            </svg>
-          </div>
-          <h3 class="text-xl font-semibold text-gray-900">Backend</h3>
-        </div>
-        <div class="space-y-3">
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600">Node.js</span>
-            <div class="w-24 bg-gray-200 rounded-full h-2">
-              <div class="bg-green-500 h-2 rounded-full" style="width: 90%"></div>
-            </div>
-          </div>
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600">Python</span>
-            <div class="w-24 bg-gray-200 rounded-full h-2">
-              <div class="bg-green-500 h-2 rounded-full" style="width: 85%"></div>
-            </div>
-          </div>
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600">PostgreSQL</span>
-            <div class="w-24 bg-gray-200 rounded-full h-2">
-              <div class="bg-green-500 h-2 rounded-full" style="width: 80%"></div>
-            </div>
-          </div>
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600">MongoDB</span>
-            <div class="w-24 bg-gray-200 rounded-full h-2">
-              <div class="bg-green-500 h-2 rounded-full" style="width: 75%"></div>
-            </div>
-          </div>
-        </div>
+      <!-- React -->
+      <div class="flex flex-col items-center justify-center aspect-square border rounded-2xl shadow-md hover:shadow-xl transition p-6 bg-white">
+        <i class="devicon-react-original colored text-6xl"></i>
+        <span class="mt-3 text-gray-700 font-medium">React</span>
       </div>
 
-      <!-- Tools & Others -->
-      <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-        <div class="text-center mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </div>
-          <h3 class="text-xl font-semibold text-gray-900">Tools & Others</h3>
-        </div>
-        <div class="space-y-3">
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600">Docker</span>
-            <div class="w-24 bg-gray-200 rounded-full h-2">
-              <div class="bg-purple-500 h-2 rounded-full" style="width: 85%"></div>
-            </div>
-          </div>
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600">AWS</span>
-            <div class="w-24 bg-gray-200 rounded-full h-2">
-              <div class="bg-purple-500 h-2 rounded-full" style="width: 80%"></div>
-            </div>
-          </div>
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600">Git</span>
-            <div class="w-24 bg-gray-200 rounded-full h-2">
-              <div class="bg-purple-500 h-2 rounded-full" style="width: 95%"></div>
-            </div>
-          </div>
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600">Figma</span>
-            <div class="w-24 bg-gray-200 rounded-full h-2">
-              <div class="bg-purple-500 h-2 rounded-full" style="width: 70%"></div>
-            </div>
-          </div>
-        </div>
+      <!-- Node.js -->
+      <div class="flex flex-col items-center justify-center aspect-square border rounded-2xl shadow-md hover:shadow-xl transition p-6 bg-white">
+        <i class="devicon-nodejs-plain colored text-6xl"></i>
+        <span class="mt-3 text-gray-700 font-medium">Node.js</span>
       </div>
+      <!-- PHP -->
+      <div class="flex flex-col items-center justify-center aspect-square border rounded-2xl shadow-md hover:shadow-xl transition p-6 bg-white">
+        <i class="devicon-docker-plain colored text-6xl"></i>
+        <span class="mt-3 text-gray-700 font-medium">Docker</span>
+      </div>
+
+      <!-- MySQL -->
+      <div class="flex flex-col items-center justify-center aspect-square border rounded-2xl shadow-md hover:shadow-xl transition p-6 bg-white">
+        <i class="devicon-mongodb-plain colored text-6xl"></i>
+        <span class="mt-3 text-gray-700 font-medium">Mongo DB</span>
+      </div>
+
+      <!-- AWS -->
+      <div class="flex flex-col items-center justify-center aspect-square border rounded-2xl shadow-md hover:shadow-xl transition p-6 bg-white">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-amazon-aws-icon-svg-png-download-2944772.png?f=webp" alt="Amazon" class="w-20 h-20">
+        <span class="mt-3 text-gray-700 font-medium">AWS</span>
+      </div>
+
     </div>
   </div>
+  
+  <div class="text-center mt-12">
+    <a href="skills" class="bg-gradient-to-r from-blue-600 to-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105">
+      View All Skills
+    </a>
+  </div>
+
 </section>
+
 
 <!-- Projects Section -->
 <section id="projects" class="py-20 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
       <h2 class="text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>
-      <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
+      <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-600 mx-auto"></div>
     </div>
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Project 1 -->
       <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow group">
-        <div class="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+        <div class="h-48 bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center"  style="background:url('assets/images/impactbank.JPG') center center; background-size:cover;">
           <div class="text-white text-center">
-            <svg class="w-16 h-16 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <!-- <svg class="w-16 h-16 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
             </svg>
-            <p class="font-semibold">E-Commerce Platform</p>
+            <p class="font-semibold">E-Commerce Platform</p> -->
           </div>
         </div>
         <div class="p-6">
-          <h3 class="text-xl font-semibold text-gray-900 mb-2">Modern E-Commerce</h3>
-          <p class="text-gray-600 mb-4">A full-stack e-commerce platform built with React, Node.js, and PostgreSQL. Features include real-time inventory, payment processing, and admin dashboard.</p>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Fintech digital account</h3>
+          <p class="text-gray-600 mb-4">A fintech digital account for the nonprofit sector, built with web and mobile apps. Challenges included integrating with a BaaS provider, coordinating outsourced teams, and delivering scalable, secure solutions.
+          </p>
           <div class="flex flex-wrap gap-2 mb-4">
-            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">React</span>
-            <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">Node.js</span>
-            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-sm rounded-full">PostgreSQL</span>
+            <span class="flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded-full text-sm hover:border-gray-500 hover:text-gray-900 transition-colors">
+              <i class="devicon-ruby-plain colored text-lg mr-2"></i> Ruby on Rails
+            </span>
+            <span class="flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded-full text-sm hover:border-gray-500 hover:text-gray-900 transition-colors">
+              <i class="devicon-mongodb-plain colored text-lg mr-2"></i> Mongo DB
+            </span>
           </div>
-          <a href="/projects" class="text-blue-600 hover:text-blue-800 font-semibold group-hover:underline">View Project →</a>
         </div>
       </div>
 
       <!-- Project 2 -->
       <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow group">
-        <div class="h-48 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center">
+        <div class="h-48 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center" style="background:url('assets/images/impactmap.JPG') center center; background-size:cover;">
           <div class="text-white text-center">
-            <svg class="w-16 h-16 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <!-- <svg class="w-16 h-16 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
             </svg>
-            <p class="font-semibold">Mobile App</p>
+            <p class="font-semibold">Mobile App</p> -->
           </div>
         </div>
         <div class="p-6">
-          <h3 class="text-xl font-semibold text-gray-900 mb-2">Task Management App</h3>
-          <p class="text-gray-600 mb-4">A cross-platform mobile application for task management with real-time synchronization, team collaboration, and progress tracking.</p>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Fund Management SaaS</h3>
+          <p class="text-gray-600 mb-4">A SaaS platform for managing philanthropic funds. Built end-to-end with backend and frontend technologies, implementing system architecture, and optimizing performance while ensuring reliability.</p>
           <div class="flex flex-wrap gap-2 mb-4">
-            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">React Native</span>
-            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-sm rounded-full">Firebase</span>
-            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-sm rounded-full">Redux</span>
+            <span class="flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded-full text-sm hover:border-gray-500 hover:text-gray-900 transition-colors">
+              <i class="devicon-angularjs-plain colored text-lg mr-2"></i> Angular
+            </span>
+            <span class="flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded-full text-sm hover:border-gray-500 hover:text-gray-900 transition-colors">
+              <i class="devicon-nodejs-plain colored text-lg mr-2"></i> Node.js
+            </span>
+            <span class="flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded-full text-sm hover:border-gray-500 hover:text-gray-900 transition-colors">
+              <img src="https://cdn.iconscout.com/icon/free/png-256/free-amazon-aws-icon-svg-png-download-2944772.png?f=webp" alt="Amazon" class="w-5 h-5 mr-2">
+              AWS
+            </span>
           </div>
-          <a href="/projects" class="text-blue-600 hover:text-blue-800 font-semibold group-hover:underline">View Project →</a>
         </div>
       </div>
 
       <!-- Project 3 -->
       <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow group">
-        <div class="h-48 bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center">
+        <div class="h-48 bg-gradient-to-br from-blue-500 to-pink-600 flex items-center justify-center" style="background:url('assets/images/logzone.JPG') top center; background-size:cover;">
           <div class="text-white text-center">
-            <svg class="w-16 h-16 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <!-- <svg class="w-16 h-16 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
             </svg>
-            <p class="font-semibold">Analytics Dashboard</p>
+            <p class="font-semibold">Analytics Dashboard</p> -->
           </div>
         </div>
         <div class="p-6">
-          <h3 class="text-xl font-semibold text-gray-900 mb-2">Data Analytics Platform</h3>
-          <p class="text-gray-600 mb-4">A comprehensive analytics dashboard with real-time data visualization, custom reports, and interactive charts for business intelligence.</p>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Log Management Platform</h3>
+          <p class="text-gray-600 mb-4">A cloud-based log centralization system with AI-powered querying via WhatsApp. Key challenges included designing a scalable architecture, implementing real-time AI search, and ensuring fast, reliable responses.</p>
           <div class="flex flex-wrap gap-2 mb-4">
-            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Angular</span>
-            <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">Python</span>
-            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">D3.js</span>
+            <span class="flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded-full text-sm hover:border-gray-500 hover:text-gray-900 transition-colors">
+              <i class="devicon-react-plain colored text-lg mr-2"></i> React
+            </span>
+            <span class="flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded-full text-sm hover:border-gray-500 hover:text-gray-900 transition-colors">
+              <i class="devicon-nextjs-plain colored text-lg mr-2"></i> Next.js
+            </span>
+            <span class="flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded-full text-sm hover:border-gray-500 hover:text-gray-900 transition-colors">
+              <i class="devicon-jest-plain colored text-lg mr-2"></i> Jest
+            </span>
           </div>
-          <a href="/projects" class="text-blue-600 hover:text-blue-800 font-semibold group-hover:underline">View Project →</a>
         </div>
       </div>
     </div>
     <div class="text-center mt-12">
-      <a href="/projects" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105">
+      <a href="projects" class="bg-gradient-to-r from-blue-600 to-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105">
         View All Projects
       </a>
     </div>
@@ -323,7 +256,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
       <h2 class="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
-      <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
+      <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-600 mx-auto"></div>
       <p class="text-xl text-gray-600 mt-6 max-w-2xl mx-auto">
         Ready to bring your ideas to life? Let's discuss your next project and create something amazing together.
       </p>
@@ -356,8 +289,8 @@
             </div>
           </div>
           <div class="flex items-center">
-            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
-              <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
               </svg>
@@ -415,7 +348,7 @@
             <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
             <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors" placeholder="Tell me about your project..."></textarea>
           </div>
-          <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105">
+          <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-blue-600 text-white py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105">
             Send Message
           </button>
         </form>
@@ -424,21 +357,5 @@
   </div>
 </section>
 
-<!-- Footer -->
-<footer class="bg-gray-900 text-white py-12">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center">
-      <h3 class="text-2xl font-bold mb-4">Daniel Fabbri</h3>
-      <p class="text-gray-400 mb-6">Full-Stack Developer & Digital Innovator</p>
-      <div class="flex justify-center space-x-6 mb-8">
-        <a href="#" class="text-gray-400 hover:text-white transition-colors">LinkedIn</a>
-        <a href="#" class="text-gray-400 hover:text-white transition-colors">GitHub</a>
-        <a href="#" class="text-gray-400 hover:text-white transition-colors">Twitter</a>
-        <a href="#" class="text-gray-400 hover:text-white transition-colors">Email</a>
-      </div>
-      <div class="border-t border-gray-800 pt-8">
-        <p class="text-gray-400">&copy; 2024 Daniel Fabbri. All rights reserved.</p>
-      </div>
-    </div>
-  </div>
-</footer>
+<app-cta />
+<app-footer />
