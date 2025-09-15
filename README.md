@@ -7,41 +7,6 @@ Hi, I'm Daniel Fabbri
 
 I have over 10 years of experience in software development, architecture, and team leadership. I have worked as a CTO in fintechs, designing system architectures, defining technologies, implementing agile processes, and mentoring teams. My goal is to create impactful, scalable, and efficient solutions that help businesses and society.
 
-## 🌐 Portfolio Website
-
-This repository contains my personal portfolio website built with Angular and Tailwind CSS. The website showcases my projects, skills, and professional experience.
-
-### 🚀 Live Demo
-Visit the live website: [https://danielfabbri.github.io/danielfabbri/](https://danielfabbri.github.io/danielfabbri/)
-
-### 🛠️ Technologies Used
-- **Angular 20** - Modern web framework
-- **Tailwind CSS** - Utility-first CSS framework
-- **TypeScript** - Type-safe JavaScript
-- **GitHub Pages** - Static site hosting
-
-### 🚀 Development & Deploy
-
-#### Local Development
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-
-# Build for production
-npm run build:prod
-```
-
-#### Deploy to GitHub Pages
-```bash
-# Deploy to GitHub Pages
-npm run deploy
-```
-
-The website is automatically deployed to GitHub Pages when changes are pushed to the main branch.
-
 ---
 
 ## 🚀 Tech Stack
